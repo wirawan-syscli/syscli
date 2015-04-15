@@ -70,7 +70,7 @@ $(document).ready(function(){
 			$("#header-navigation").show("fast");
 		}
 
-		if(isTablet()){
+		if(!isMobile()){
 			$(".services-item .services-bottom").slideUp()
 			$(".services-item:first-child").addClass("hide");
 			$(".services-item").not(".hide").each(function(){
@@ -169,7 +169,7 @@ $(document).ready(function(){
 	$("#header-navigation").click(function(){slideHeaderNavigation($(this))});
 	$("#header-navigation a").click(function(){scrollToSection($(this))});
 	$(".services-item").click(function(){
-		if(isTablet()){
+		if(!isMobile()){
 			showBigServices($(this));
 		}else{
 			showServices($(this));

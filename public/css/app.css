@@ -751,9 +751,23 @@ p, label, td, li{ font-size: 110% !important; }
 	margin-bottom: 0.5em;
 }
 
+/* INTRODUCTION */
+
+#introduction-detail{
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+}
+
 /* SERVICES */
 
-#services-wrapper{
+.consulting{ background: url('../img/consult.png') right center/auto 100% no-repeat; }
+.advice{ background: url('../img/advice.png') right center/auto 100% no-repeat; }
+.opensource{ background: url('../img/opensource.png') right center/auto 100% no-repeat; }
+.website{ background: url('../img/web.png') right center/auto 100% no-repeat; }
+.windows{ background: url('../img/win.png') right center/auto 100% no-repeat; }
+.macintosh{ background: url('../img/mac.png') right center/auto 100% no-repeat; }
+
+/*#services-wrapper{
 	padding-bottom: 0;
 }
 
@@ -800,7 +814,7 @@ p, label, td, li{ font-size: 110% !important; }
 .services-top .icon {
 	background-position: center;
 	background-size: auto 100%;
-}
+}*/
 
 /* CONTACT */
 
