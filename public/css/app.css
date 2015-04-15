@@ -196,6 +196,7 @@ h4{ font-size: 110%; }
 
 #slideshow-wrapper{
 	padding: 0;
+	border-top: 1px solid #FDFDFD;
 }
 
 #slideshow .owl-stage-outer .owl-item{

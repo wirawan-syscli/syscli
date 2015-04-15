@@ -2,9 +2,9 @@
 
 	<div id="slideshow-wrapper">
 		<div id="slideshow" class="owl-carousel">
-			<div class="slideshow-item"><img src="{{ asset('img/cover.jpg') }}" /></div>
-			<div class="slideshow-item"><img src="{{ asset('img/cover.jpg') }}" /></div>
-			<div class="slideshow-item"><img src="{{ asset('img/cover.jpg') }}" /></div>
+			<div class="slideshow-item"><img src="{{ asset('img/systemclinic-slideshow.png') }}" /></div>
+			<div class="slideshow-item"><img src="{{ asset('img/systemclinic-slideshow.png') }}" /></div>
+			<div class="slideshow-item"><img src="{{ asset('img/systemclinic-slideshow.png') }}" /></div>
 		</div>
 	</div>
 
