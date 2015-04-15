@@ -88,7 +88,7 @@ $(document).ready(function(){
 	}
 
 	function scrollToSection(section){
-		var targetSection = "#" + section.find("small").html().toLowerCase() + "-wrapper";
+		var targetSection = "#" + section.html().toLowerCase() + "-wrapper";
 		var targetHeight = $(targetSection).offset().top;
 		var headerHeight = 0;
 
